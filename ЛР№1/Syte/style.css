@@ -1,0 +1,71 @@
+body{
+    background-color: #FFFCCC;
+}
+a{
+    text-decoration: none;
+    color: #660000;
+}
+.image{
+    width: 12vw;
+}
+.catalog{
+    margin-left: 8vw;
+    margin-right: 8vw;
+    width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.game{
+    width: 12vw;
+    margin: 2vmax;
+}
+p{
+    text-align: center;
+    font-size: large;
+    color: #660000;
+}
+header{
+    margin-left: 10vw;
+    margin-right: 13vw;
+}
+h1{
+    padding-top: 1vh;
+    font-size: 3vmax;
+    color: #660000;
+}
+nav{
+    border-bottom: 1px solid #660000;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+    font-size: 1.4vw;
+}
+.menu-list{
+    margin-top: 5vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+li{
+    list-style: none;
+    margin-right: 1.3vw;
+}
+ul{
+    padding-inline-start: 0;
+}
+footer{
+    border-top: 1px solid #660000;
+    text-align: center;
+}
+button{
+    background-color: #FFFCCC;
+    border: 1px solid black;
+    font-size: 1.4vw;
+    font-family: Times New Roman;
+}
+footer p:first-child{
+    margin-top: 4vh;
+}

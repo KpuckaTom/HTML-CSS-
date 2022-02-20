@@ -1,0 +1,87 @@
+body{
+    background-color: #FFFCCC;
+}
+header{
+    margin-left: 0vw;
+    margin-right: 0vw;
+}
+button{
+    background-color: #FFFCCC;
+    border: 1px solid black;
+    font-size: 1.4vw;
+    font-family: Times New Roman;
+}
+footer{
+    border-top: 1px solid #660000;
+    text-align: center;
+}
+.first{
+    display: inline-block;
+    vertical-align: top;
+    width: 45vw;
+}
+.image{
+    width: 35vw;
+    margin-left: 10vw;
+}
+.image2{
+    width: 35vw;
+    margin-top: 40vh;
+    margin-left: 4vw;
+}
+.description{
+    width: 30vw;
+    padding-left: 5vw;
+}
+.game_description{
+    width: 30vw;
+    padding-left: 2vw;
+}
+.basket{
+    height: 6vw;
+    width: 100%;
+}
+.second{
+    padding-left: 3vmax;
+    display: inline-block;
+    vertical-align: top;
+    width: 45vw;
+}
+p{
+    font-size: 1.2vmax;
+}
+li{
+    font-size: 1.2vmax;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.white{
+    background-color: #FFFCCC;
+    margin-top: 1vw;
+    border: 2px solid #660000;
+}
+nav{
+    border-bottom: 1px solid #660000;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+    font-size: 1.4vw;
+}
+.menu-list{
+    margin-left: 10vw;
+    margin-top: 5vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+li{
+    list-style: none;
+    margin-right: 1.3vw;
+}
+ul{
+    padding-inline-start: 0;
+}
